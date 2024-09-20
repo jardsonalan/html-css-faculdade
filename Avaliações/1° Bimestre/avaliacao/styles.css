@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+article > h2 {
+    color: blue;
+}
+
+.menu {
+    background-color: blue;
+    padding: 10px;
+}
+
+#principal {
+    border: 2px solid black;
+}
+
+ul {
+    color: green;
+}
+
+img {
+    width: 300px;
+    border: 1px solid black;
+}
+
+form input, form button {
+    padding: 5px;
+    margin: 10px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+}

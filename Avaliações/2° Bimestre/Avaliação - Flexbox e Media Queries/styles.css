@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body > header > nav > ul > li {
+    list-style: none;
+    margin: 10px;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+body > main > section {
+    background-color: rgb(63, 153, 255);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+body > main > .entretenimento > img {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+body > main > .esportes > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body > main > .esportes > div > img {
+    width: 100%;
+    margin: 10px;
+}
+
+body > main > section h2 {
+    margin: 0 0 20px 0;
+}
+
+body > main > section p {
+    text-align: justify;
+}
+
+body > footer {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+body > footer > nav > ul > li {
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+}
+
+body > footer > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    body > header > nav > ul {
+        display: flex;
+    }
+
+    body > main {
+        display: flex;
+        height: 75vh;
+    }
+
+    body > main > section {
+        height: 95%;
+        width: 33.33%;
+    }
+
+    body > main > .esportes > div > img {
+        height: 150px;
+    }
+
+    body > footer {
+        height: 120px;
+    }
+
+    body > footer > nav > ul {
+        display: flex;
+    }
+}
